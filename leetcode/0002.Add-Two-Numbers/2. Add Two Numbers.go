@@ -1,11 +1,7 @@
 package leetcode
 
-import (
-	"github.com/halfrost/LeetCode-Go/structures"
-)
-
 // ListNode define
-type ListNode = structures.ListNode
+// type ListNode = structures.ListNode
 
 /**
  * Definition for singly-linked list.
