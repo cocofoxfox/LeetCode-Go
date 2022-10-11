@@ -42,7 +42,7 @@ func Test_Problem4(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans4, q.para4
-		fmt.Printf("【input】:%v       【output】:%v\n", p, findMedianSortedArrays(p.nums1, p.nums2))
+		fmt.Printf("【input】:%v       【output】:%v\n", p, findMedianSortedArrays1(p.nums1, p.nums2))
 	}
 	fmt.Printf("\n\n\n")
 }
